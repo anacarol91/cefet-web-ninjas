@@ -1,0 +1,82 @@
+#logo {
+	width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe, img {
+	display: block;
+    margin: 3% auto;
+}
+
+body {
+	font-family: 'Fira Sans Condensed', sans-serif;
+	background-image: url(img/bg.jpg);
+  	background-repeat: round;
+  	padding: 20px 150px;
+}
+
+h1, h2, strong {
+	color: #ff6666;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 8px rgba(86, 78, 78, 0.62);
+}
+
+h2 {
+	letter-spacing: 2px;
+	margin-top: 30px;	
+}
+
+p {
+	letter-spacing: 1px;
+	text-align: justify;
+	color: #636262;
+}
+
+em {
+	font-size: 20px;
+}
+
+li, ol {
+	color: #636262;
+}
+
+a:link {
+	color: #008080;
+}
+
+a:hover {
+	color: #008080;
+	text-shadow: 2px 2px 8px #96afad;
+}
+
+a:visited {
+	color: #ff6666;
+}
+
+a:active {
+	color: #ff6666;
+}
+
+.passo {
+	color: #000 !important;
+}
+
+.number {
+	font-size: 27px;
+}
+
+.nota {
+	opacity: 0.35;
+}
+
+.link:before {
+	content: "";
+	background: url("../img/globo.png") no-repeat;
+	padding-left: 23px;
+    margin-left: 10px;
+}
